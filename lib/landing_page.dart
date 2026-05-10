@@ -1,3 +1,4 @@
+import 'package:asti_labs/sections/cta.dart';
 import 'package:asti_labs/sections/footer.dart';
 import 'package:asti_labs/sections/portfolio.dart';
 import 'package:asti_labs/sections/pricing.dart';
@@ -106,7 +107,7 @@ class _LandingPageState extends State<LandingPage> {
                 PortfolioSection(key: portfolioKey),
                 TestimonialsSection(key: testimonialsKey),
                 PricingSection(key: pricingKey),
-
+                CTASection(),
                 FooterSection(
                   key: contactKey,
                   onNavigate: handleNav,
